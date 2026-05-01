@@ -16,4 +16,6 @@ export const router = createBrowserRouter([
       { path: 'checkout', Component: CheckoutPage },
     ],
   },
-]);
+], {
+  basename: '/Amattdenim/',
+});
